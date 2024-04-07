@@ -1,9 +1,11 @@
 [package]
 name = "shrs_sound"
+author = "Nithin Muthukumar"
+about = "Sound plugin for shrs"
 version = "0.1.0"
 edition = "2021"
+description = "Sound plugin for shrs"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 shrs = { git = "https://github.com/MrPicklePinosaur/shrs" }
