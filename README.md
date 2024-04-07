@@ -1,8 +1,15 @@
 # shrs_sound
 
-Sound plugin for shrs
+<div align="center">
+    <strong>Sound plugin for shrs</strong>
+</div>
 
-This lib provides a Plugin that allows users to easily play sounds in hooks.
-Sounds should be stored in config_dir/sounds
+This crate provides a plugin for playing sounds within hooks in the `shrs` framework. Users can easily integrate sound playback functionality into their shell.
 
-see examples/basic.rs
+## Installation
+
+Add this crate as a dependency in your `Cargo.toml`:
+
+```toml
+[dependencies]
+shrs-sound-plugin = "0.1"
